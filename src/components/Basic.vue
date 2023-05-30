@@ -1,18 +1,39 @@
 <script>
 import Header from './Header.vue';
+import About from './About.vue';
+import Services from './Services.vue';
+import Portfolio from './Portfolio.vue';
+import Testimonials from './Testimonials.vue';
+import Footer from './Footer.vue';
+import HireUs from './Hire-us.vue';
+import Gallery from './Clients.vue';
 export default {
     name: 'BasicSetup',
     components: {
-        Header
+        Header,
+        About,
+        Services,
+        Portfolio,
+        Footer,
+        Testimonials,
+        HireUs,
+        Gallery
     }
 }
 </script>
 <template>
     <body>
         <Header/>
+        <About/>
+        <Services/>
+        <Portfolio/>
+        <Testimonials/>
+        <Gallery/>
+        <HireUs/>
+        <Footer/>
     </body>
 </template>
-<style>
+<style lang="scss">
 /* PAGE BASICS */
 *,
 *::before,
@@ -22,6 +43,8 @@ export default {
     box-sizing: inherit;
 }
 body {
+    background-color: #fff;
     box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
 }
 </style>
