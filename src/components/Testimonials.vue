@@ -93,9 +93,6 @@
   margin: 3rem 0;
   margin: 3rem 0;
 }
-.testimonial-item {
-  height: 4rem;
-}
 .next-icon .prev-icon {
   background-color: rgb(3, 3, 3);
   color: #fff;

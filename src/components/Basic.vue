@@ -2,7 +2,7 @@
 import Header from './Header.vue';
 import About from './About.vue';
 import Services from './Services.vue';
-import Portfolio from './Portfolio.vue';
+import Portfolio2 from './Portfolio2.vue';
 import Testimonials from './Testimonials.vue';
 import Footer from './Footer.vue';
 import HireUs from './Hire-us.vue';
@@ -13,7 +13,7 @@ export default {
         Header,
         About,
         Services,
-        Portfolio,
+        Portfolio2,
         Footer,
         Testimonials,
         HireUs,
@@ -26,7 +26,7 @@ export default {
         <Header/>
         <About/>
         <Services/>
-        <Portfolio/>
+        <Portfolio2/>
         <Testimonials/>
         <Gallery/>
         <HireUs/>

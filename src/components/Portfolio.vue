@@ -7,40 +7,40 @@
       <div class="container-fluid my-5">
         <div class="row">
           <div class="col-md-3 px-0 portfolio-item">
-            <img src="../assets/portfolio/1.webp" class="portfolio-img" alt="">
+            <img src="../assets/portfolio/1.jpg" class="portfolio-img" alt="">
           </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/2.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/2.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/3.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/3.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/4.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/4.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-            <img src="../assets/portfolio/1.webp" class="portfolio-img" alt="">
+            <img src="../assets/portfolio/5.jpg" class="portfolio-img" alt="">
           </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/2.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/6.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/3.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/7.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/4.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/8.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-            <img src="../assets/portfolio/1.webp" class="portfolio-img" alt="">
+            <img src="../assets/portfolio/1.jpg" class="portfolio-img" alt="">
           </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/2.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/2.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/3.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/3.jpg" class="portfolio-img" alt="">
         </div>
         <div class="col-md-3 px-0 portfolio-item">
-          <img src="../assets/portfolio/4.webp" class="portfolio-img" alt="">
+          <img src="../assets/portfolio/4.jpg" class="portfolio-img" alt="">
         </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
   margin: 4rem 0;
 }
 .portfolio-img{
-  height: 15rem;
+  height: 100%;
   width: 100%;
   filter: blur(.5px) brightness(80%);
   transition: all .4s;
@@ -62,7 +62,7 @@
   &:hover,
   &:active {
     filter: none;
-    transform: scale(1.2);
+    transform: scale(1.06);
   }
 
 }

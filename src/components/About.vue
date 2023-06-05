@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <section class="about">
-            <div class="container">
+            <div class="container mt-3">
                 <h1 class="display-6">Get started in seconds</h1>
             </div>
             <div class="container --padding-none">
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-none d-md-block">
                         <div class="about-right">
                             <img src="../assets/template-next-boilerplate.jpg" alt="" class="about-right__photo about-right__photo--p1 img-fluid">
                             <img src="../assets/template-next-commerce.jpg" alt="" class="about-right__photo about-right__photo--p2 img-fluid">

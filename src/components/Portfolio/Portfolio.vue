@@ -101,6 +101,56 @@ export default {
           type: "web",
           imageUrl: require("./img/portfolio/8.jpg"),
         },
+        {
+          id: 9,
+          type: "web",
+          imageUrl: require("./img/portfolio/9.jpg"),
+        },
+        {
+          id: 10,
+          type: "web",
+          imageUrl: require("./img/portfolio/10.jpg"),
+        },
+        {
+          id: 11,
+          type: "web",
+          imageUrl: require("./img/portfolio/11.jpg"),
+        },
+        {
+          id: 12,
+          type: "web",
+          imageUrl: require("./img/portfolio/12.jpg"),
+        },
+        {
+          id: 13,
+          type: "web",
+          imageUrl: require("./img/portfolio/13.jpg"),
+        },
+        {
+          id: 14,
+          type: "web",
+          imageUrl: require("./img/portfolio/14.jpg"),
+        },
+        {
+          id: 15,
+          type: "web",
+          imageUrl: require("./img/portfolio/15.jpg"),
+        },
+        {
+          id: 16,
+          type: "web",
+          imageUrl: require("./img/portfolio/16.jpg"),
+        },
+        {
+          id: 17,
+          type: "web",
+          imageUrl: require("./img/portfolio/17.jpg"),
+        },
+        {
+          id: 18,
+          type: "web",
+          imageUrl: require("./img/portfolio/18.jpg"),
+        }
       ],
       selectedImage: null,
       selectedFilter: "all",
@@ -199,6 +249,7 @@ export default {
 }
 
 .modal {
+  z-index: 200 !important;
   display: block;
   position: fixed;
   z-index: 1;
@@ -227,10 +278,4 @@ export default {
   cursor: pointer;
 }
 
-.caption {
-  color: #fff;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 24px;
-}
 </style>

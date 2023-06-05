@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-        <div class="container">
+        <div class="banner-bg">
             <Navigation/>
         </div>
     </div>
@@ -10,6 +10,9 @@
 .banner {
     background-color: #efefef;
     height: 10rem;
+}
+.banner-bg{
+    background-color: #efefef;
 }
 </style>
 

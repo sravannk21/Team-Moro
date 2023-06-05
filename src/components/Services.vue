@@ -5,7 +5,7 @@
         </div>
         <div class="container sercices-container">
             <div class="row">
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 d-flex mb-5 mb-md-0">
                     <div class="sercices-container__service-box">
                         <div class="icon-box mb-3">
                         <i class="bi bi-megaphone icon-box__icon"></i>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 d-flex mb-5 mb-md-0">
                     <div class="sercices-container__service-box">
                         <div class="icon-box mb-3">
                         <i class="bi bi-pencil-square icon-box__icon"></i>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="icon-desc my-4">
                         <Paragraph>
-                            e create beautiful, clear and functional graphics for all of your print and digital design needs.
+                            W   e create beautiful, clear and functional graphics for all of your print and digital design needs.
                         </Paragraph>
                     </div>
                     </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="container sercices-container">
             <div class="row">
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 d-flex mb-5 mb-md-0">
                     <div class="sercices-container__service-box">
                         <div class="icon-box mb-3">
                         <i class="bi bi-camera-reels icon-box__icon"></i>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 d-flex mb-5 mb-md-0">
                     <div class="sercices-container__service-box">
                         <div class="icon-box mb-3">
                         <i class="bi bi-camera icon-box__icon"></i>

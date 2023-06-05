@@ -2,7 +2,7 @@
 <footer class="section bg-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="">
                         <h6 class="footer-heading text-capitalize text-white">Links</h6>
                         <ul class="list-unstyled footer-link mt-4">
@@ -14,7 +14,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="">
                         <h6 class="footer-heading text-capitalize text-white">Hire us</h6>
                         <ul class="list-unstyled footer-link mt-4">
@@ -26,23 +26,12 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2">
-                    <div class="">
-                        <h6 class="footer-heading text-capitalize text-white">More</h6>
-                        <ul class="list-unstyled footer-link mt-4">
-                            <li><a href="">Sign Up </a></li>
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Terms of Services</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div class="col-sm-4">
                     <div class="">
                         <h6 class="footer-heading text-capitalize text-white">Contact Us</h6>
-                        <p class="contact-info mt-4">Contact us if need help withanything</p>
-                        <p class="contact-info">+01 123-456-7890</p>
+                        <p class="contact-info mt-4">Moro, First Floor, Manatti Complex Manna, Taliparamba, 670141</p>
+                        <p class="contact-info">+91 96051 64671</p>
+                        <p class="contact-info">hi@teammoro.com</p>
                         <div class="mt-5">
                             <ul class="list-inline">
                                 <li class="list-inline-item"><a href="#"><i class="bi bi-facebook footer-social-icon"></i></a></li>

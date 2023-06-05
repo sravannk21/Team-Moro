@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="container-fluid w-100 fixed-menu">
+    <div class="container">
     <nav class="navbar navbar-expand-lg">
       <div class="container main-nav">
         <a class="navbar-brand" href="#"><img src="../assets/520.png" class="img-fluid navLogo" alt=""></a>
@@ -43,6 +44,7 @@
       </div>
     </nav>
   </div>
+  </div>
 </template>
 
 <script>
@@ -71,6 +73,12 @@ export default {
   padding-top: 3rem;
   z-index: 100;
 }
+.fixed-menu {
+  position: fixed;
+  z-index: 99;
+  height: 4.32rem;
+  background-color: #fff;
+}
 .nav-link {
     color: #000;
     font-size: 0.75rem;
@@ -88,6 +96,7 @@ export default {
 }
 .navbar-toggler {
     background-color: #fff;
+    margin-right: 2rem;
 }
 .navbar-brand img{
     width: 4rem;

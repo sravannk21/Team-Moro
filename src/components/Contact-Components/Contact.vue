@@ -1,12 +1,12 @@
 <template>
 <section class="contact">
-  <div class="row">
+  <div>
     <MainHeading class="title">Contact Us</MainHeading>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 d-table">
-        <div class="contact-left my-4 d-table-cell align-middle">
+      <div class="col-md-6 my-auto">
+        <div class="contact-left">
           <h3 class="contact-caption">To make requests for further information</h3>
           <Paragraph className="contact-desc">
             We just need a couple of hours!  No more than 2 working days since receiving your issue ticket.
@@ -96,7 +96,7 @@
     content: '';
     display: block;
     width: 0.3rem;
-    height: 10rem;
+    height: 7rem;
     background-color: red;
     border-radius: 2px;
   }

@@ -12,13 +12,16 @@ export default {
 <template>
         <header class="header">
         <Navigation/>
+        <div class="container d-table">
           <div class="heading-box">
             <h1 class="heading-primary">
-              <span class="main">Welcome</span>
-              <span class="sub">Go far with more</span>
+              <span class="main">Unlock the power</span>
+              <span class="sub">of creative advertising</span>
               <Button />
             </h1>
           </div>
+        </div>
+          
         <div class="bottom-border">&nbsp;</div>
         </header>
 </template>
@@ -30,7 +33,7 @@ export default {
   background-size: cover;
   width: 100%;
   height: 90vh;
-  position: relative;
+  overflow: hidden;
 }
 .logo-box{
     position:absolute;
@@ -43,17 +46,15 @@ export default {
 }
 .heading-box {
   position: absolute;
-  top: 60%;
-  left: 0;
-  transform: translate(30%, -50%);
-  text-align: left;
+  top: 40%;
+  left: 6.5%;
 }
 
 .heading-primary {
   display: block;
   text-transform: uppercase;
   color: #000;
-  font-size: max(48px, min(5vw, 76px));
+  font-size: max(32px, min(4vw, 60px));
   -webkit-box-decoration-break: clone;
 }
 .main {
