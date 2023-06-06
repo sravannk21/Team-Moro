@@ -28,13 +28,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/services">Services</a>
+            <router-link :to="{ path: '/services'}" class="nav-link">Services</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio">Portfolio</a>
+            <router-link :to="{ path: '/portfolio'}" class="nav-link">Portfolio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <router-link :to="{ path: '/about'}" class="nav-link">About</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
