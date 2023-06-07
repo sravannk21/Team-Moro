@@ -1,17 +1,17 @@
 <script>
 import Button from "./Button.vue";
-import Navigation from "./Navigation.vue";
+import Navbar from "./Navbar.vue";
 export default {
   name: "HeaderMain",
   components: {
     Button,
-    Navigation
+    Navbar
   },
 };
 </script>
 <template>
         <header class="header">
-        <Navigation/>
+        <Navbar/>
         <div class="container d-table">
           <div class="heading-box">
             <h1 class="heading-primary">

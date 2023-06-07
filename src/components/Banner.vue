@@ -1,7 +1,7 @@
 <template>
     <div class="banner">
         <div class="banner-bg">
-            <Navigation/>
+             <Navbar/>
         </div>
     </div>
 </template>
@@ -17,12 +17,11 @@
 </style>
 
 <script>
-import Navigation from './Navigation.vue';
+import Navbar from './Navbar.vue';
 export default {
     name: 'BannerMoro',
     components: {
-        Navigation,
-
-    }
+        Navbar
+    },
 }
 </script>

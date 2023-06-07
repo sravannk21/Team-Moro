@@ -17,7 +17,7 @@ export default {
         Footer,
         Testimonials,
         HireUs,
-        Gallery
+        Gallery,
     }
 }
 </script>
