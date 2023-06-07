@@ -1,8 +1,8 @@
 <template>
-  <div class="row">
+  <div>
     <MainHeading>What Our clients says</MainHeading>
   </div>
-    <div class="row py-5 text-center">
+    <div class="py-5 text-center">
       <div class="slider-container">
         <transition-group name="testimonial-slide" tag="ul">
             <div class="testimonial-box">

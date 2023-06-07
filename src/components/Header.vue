@@ -29,7 +29,7 @@ export default {
 <style>
 .header {
   background-image: url('@/assets/logo1.jpg');
-  background-position: center;
+  background-position: right;
   background-size: cover;
   width: 100%;
   height: 90vh;

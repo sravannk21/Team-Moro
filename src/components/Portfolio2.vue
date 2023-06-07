@@ -1,6 +1,6 @@
 <template>
   <section class="portfolio">
-    <div class="row">
+    <div>
       <div class="title">
         <MainHeading>Our Recent Works</MainHeading>
       </div>
