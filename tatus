@@ -1,0 +1,41 @@
+[33mcommit 502e0c9ce2988339f7fd128cd0f28fce8d2c479b[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mgithub/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Wed Jun 7 17:43:57 2023 +0530
+
+    index page overflow bug solved
+
+[33mcommit c60ea7b7fae8559d8e90b9ce23674ffbe1b1aae9[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Wed Jun 7 12:03:19 2023 +0530
+
+    Navbar updated with different pattern
+
+[33mcommit a4f49e47000de7c6abfaff6f6b6aa224ea9570a5[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Tue Jun 6 12:44:47 2023 +0530
+
+    router link created in navigation
+
+[33mcommit be3065890b2c6f24d8ca4908e9ff37863a442c02[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Mon Jun 5 18:03:24 2023 +0530
+
+    all pages layout completed
+
+[33mcommit 4b1e6b2c3dfce0359ba412ee9a04e6f259883535[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Tue May 30 19:14:06 2023 +0530
+
+    moro website created using vue js and bootstrap
+
+[33mcommit 4d9a98760ac8fe011a0134407cf99af6fcfde13c[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Fri May 12 21:38:08 2023 +0530
+
+    Initial commit
+
+[33mcommit cedeeb6e16a11f51c2daf708d9e23cb4ccfbf152[m
+Author: Sravan NK <hiraone@proton.me>
+Date:   Fri May 12 11:23:25 2023 +0530
+
+    init

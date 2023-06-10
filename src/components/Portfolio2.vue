@@ -7,7 +7,7 @@
     </div>
     <div class="container my-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -58,7 +58,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div class="gallery">
             <div class="gallery-item">
               <img

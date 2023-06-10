@@ -15,13 +15,12 @@ export default {
         <div class="container d-table">
           <div class="heading-box">
             <h1 class="heading-primary">
-              <span class="main">Unlock the power</span>
-              <span class="sub">of creative advertising</span>
-              <Button />
+              <span class="main" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">Unlock the power</span>
+              <span class="sub" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">of creative advertising</span>
+              <Button  data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" />
             </h1>
           </div>
         </div>
-          
         <div class="bottom-border">&nbsp;</div>
         </header>
 </template>

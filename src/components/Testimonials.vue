@@ -4,7 +4,6 @@
   </div>
     <div class="py-5 text-center">
       <div class="slider-container">
-        <transition-group name="testimonial-slide" tag="ul">
             <div class="testimonial-box">
                 <li v-for="(testimonial, index) in testimonials" :key="index" v-show="index === currentIndex">
             <div class="testimonial-item">
@@ -24,7 +23,6 @@
       </div>
             </div>
             
-        </transition-group>
       </div>
     </div>
   </template>

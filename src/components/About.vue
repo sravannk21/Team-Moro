@@ -2,11 +2,11 @@
     <div class="container">
         <section class="about">
             <div class="container mt-3">
-                <h1 class="display-6">Get started in seconds</h1>
+                <h1 class="display-6" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">Get started in seconds</h1>
             </div>
             <div class="container --padding-none">
                 <div class="row about__about-box">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div class="about-left">
                             <div class="about-left__content">
                                 <p class="about-left__paragraph">Vercel is a platform from the founders of Next.js, making it a framework you can deploy easily.</p>
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 d-none d-md-block">
+                    <div class="col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div class="about-right">
                             <img src="../assets/template-next-boilerplate.jpg" alt="" class="about-right__photo about-right__photo--p1 img-fluid">
                             <img src="../assets/template-next-commerce.jpg" alt="" class="about-right__photo about-right__photo--p2 img-fluid">

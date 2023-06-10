@@ -198,6 +198,7 @@
 </template>
 
 <style scoped lang="scss">
+@import '~animate.css/animate.css';
 .service {
     .container:not(:last-child) {
         margin-bottom: 3rem;
