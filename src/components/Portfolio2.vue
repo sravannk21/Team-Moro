@@ -103,6 +103,7 @@
   height: 100%;
   margin: 0 auto 1.2rem auto;
   position: relative;
+  z-index: 2000;
 }
 
 .gallery-item img {

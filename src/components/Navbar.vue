@@ -7,22 +7,22 @@
           <i class="bi bi-list icon"></i>
         </label>
         <label
-          ><router-link :to="{ path: '/' }"
+          ><router-link to="/"
             ><img
               src="../assets/520.png"
               class="img-fluid logo"
               alt="" /></router-link
         ></label>
         <ul>
-          <li><router-link :to="{ path: '/' }">Home</router-link></li>
+          <li><router-link to="/">Home</router-link></li>
           <li>
-            <router-link :to="{ path: '/services' }">Services</router-link>
+            <router-link to="/services">Services</router-link>
           </li>
           <li>
-            <router-link :to="{ path: '/portfolio' }">Portfolio</router-link>
+            <router-link to="/portfolio">Portfolio</router-link>
           </li>
-          <li><router-link :to="{ path: '/about' }">About</router-link></li>
-          <li><router-link :to="{ path: '/contact' }">Contact</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/contact">Contact</router-link></li>
         </ul>
       </nav>
     </div>
@@ -79,7 +79,6 @@ nav ul li a {
   color: #000;
   float: right;
   line-height: 5rem;
-  margin-right: 2.5rem;
   cursor: pointer;
   display: none;
   transition: all 0.3s ease;
