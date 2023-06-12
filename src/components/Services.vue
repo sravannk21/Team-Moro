@@ -147,7 +147,6 @@
 </style>
 
 <script>
-import 'animate.css'
 import MainHeading from "./Typography/MainHeading.vue";
 import secondaryHeading from "./Typography/secondaryHeading.vue";
 import Paragraph from "./Typography/Paragraph.vue";

@@ -1,115 +1,90 @@
-<template>
-  <div>
-    <MainHeading>What Our clients says</MainHeading>
-  </div>
-    <div class="py-5 text-center">
-      <div class="slider-container">
-            <div class="testimonial-box">
-                <li v-for="(testimonial, index) in testimonials" :key="index" v-show="index === currentIndex">
-            <div class="testimonial-item">
-              <div class="testimonial-content">
-                <p class="testimonial-text">{{ testimonial.text }}</p>
-                <p class="testimonial-author">{{ testimonial.author }}</p>
-              </div>
-            </div>
-          </li>
-          <div class="slider-controls">
-        <button class="slider-control-prev prev-icon" @click="goToPreviousSlide" :disabled="currentIndex === 0">
-          <i class="bi bi-caret-left-fill px-3"></i>
-        </button>
-        <button class="slider-control-next next-icon" @click="goToNextSlide" :disabled="currentIndex === testimonials.length - 1">
-          <i class="bi bi-caret-right-fill px-3"></i>
-        </button>
-      </div>
-            </div>
-            
-      </div>
-    </div>
-  </template>
-  
-  <script>
-  import MainHeading from './Typography/MainHeading.vue';
-  export default {
-    name: "TestimonialsSlider",
-    components: {
-      MainHeading
-    },
-    data() {
-      return {
-        currentIndex: 0,
-        testimonials: [
-          {
-            text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            author: "John Doe"
-          },
-          {
-            text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            author: "Jane Smith"
-          },
-          {
-            text: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
-            author: "Adam Johnson"
-          }
-        ]
-      };
-    },
-    methods: {
-      goToPreviousSlide() {
-        if (this.currentIndex > 0) {
-          this.currentIndex--;
-        }
-      },
-      goToNextSlide() {
-        if (this.currentIndex < this.testimonials.length - 1) {
-          this.currentIndex++;
-        }
-      }
-    }
-  };
-  </script>
-  
 <style scoped lang="scss">
-.slider-container {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('../assets/testimonial-bg.jpg');
-    background-position: bottom;
-    background-size: cover;
-    height: auto;
-    li {
-        list-style: none;
-    }
-}
 .testimonial-box {
-    margin-top: 4rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2rem;
-    margin: 4rem auto;
-    transform: skewX(-12deg);
-    width: 80%;
-}
-.testimonial-item, .slider-controls {
-  transform: skewX(12deg);
-  margin: 3rem 0;
-  margin: 3rem 0;
-}
-.next-icon .prev-icon {
-  background-color: rgb(3, 3, 3);
+  padding: 1rem;
   color: #fff;
 }
-.prev-icon {
-  margin-right: 1rem;
+.user-img {
+  width: 4rem;
 }
-.testimonial-author {
-  font-weight: 700;
-  color: #000000;
-  margin-top: 1rem;
+.testimonial-bg {
+  background-image: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)), url('@/assets/img/testimonials.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
 }
-.testimonial-text {
-  width: 70%;
-  margin: 0 auto;
-  font-size: 0.75rem;
-}
-.slider-controls {
-  margin: 1rem 0;
+.testimonial-name {
+  color: #504d4d;
+  font-style: italic
 }
 </style>
-  
+<template>
+  <div class="container-fluid testimonial my-5">
+    <div class="row testimonial-bg">
+      <div class="col-md-12 text-center my-auto">
+        <div class="testimonial-box">
+          <swiper
+          :slides-per-view="1"
+          :space-between="50"
+          :autoplay="true"
+          @swiper="onSwiper"
+          @slideChange="onSlideChange">
+          <swiper-slide v-for="index in testimonial" :key="index">
+            <img :src="index.imgUrl" class="user-img">
+            <p class="pt-3 w-50 mx-auto">{{ index.testimonial }}</p>
+            <p class="testimonial-name">{{ index.client_name }}</p>
+          </swiper-slide>
+        </swiper>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+// Import Swiper styles
+import "swiper/css";
+
+export default {
+  name: "test-moro",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    const testimonial = [
+      {
+        imgUrl: require("../assets/img/user.png"),
+        testimonial:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        client_name: "user name"
+      },
+      {
+        imgUrl: require("../assets/img/user.png"),
+        testimonial:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          client_name: "user name"
+      },
+      {
+        imgUrl: require("../assets/img/user.png"),
+        testimonial:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+          client_name: "user name"
+      },
+    ];
+
+    const onSwiper = (swiper) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+      testimonial,
+    };
+  },
+};
+</script>
