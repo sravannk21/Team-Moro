@@ -249,7 +249,7 @@ export default {
 }
 
 .modal {
-  z-index: 200 !important;
+  z-index: 2000 !important;
   display: block;
   position: fixed;
   z-index: 1;
