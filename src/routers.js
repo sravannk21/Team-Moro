@@ -10,7 +10,10 @@ const routes = [
     {
         name: 'HomePage',
         component: HomePage,
-        path:'/'
+        path:'/',
+        meta: {
+            title: 'Team Moro | Digital marketing agency' // Set the desired title for this route
+          }
     },
     {
         name: 'Services',
