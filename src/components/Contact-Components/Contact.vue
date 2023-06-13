@@ -5,7 +5,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 my-auto">
+      <div class="col-md-6 my-auto" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
         <div class="contact-left">
           <h3 class="contact-caption">To make requests for further information</h3>
           <Paragraph className="contact-desc">
@@ -13,7 +13,7 @@
           </Paragraph>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
         <div class="contact-right my-4">
           <form action="#" class="contact-form">
             <div class="form-box p-3">

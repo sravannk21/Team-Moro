@@ -2,7 +2,7 @@
     <section class="about">
         <div class="container">
             <div class="row about-container">
-                <div class="col-md-6">
+                <div class="col-md-6 my-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
                     <div class="row mb-2">
                         <secondaryHeading>About Us</secondaryHeading>
                     </div>
@@ -16,7 +16,7 @@
                         <CommonButton url="" button="contact-btn" >Contact Us</CommonButton>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
                     <div class="about-image-box">
                         <img src="@/assets/logo1.jpg" class="img-fluid about-image-box--img" alt="">
                     </div>

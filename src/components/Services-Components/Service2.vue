@@ -7,7 +7,7 @@
   <section class="service my-2 py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -75,7 +75,7 @@
             </div>
         </div>
         
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -101,7 +101,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -124,7 +124,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -146,7 +146,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">
@@ -169,7 +169,7 @@
             </div>
         </div>
         
-        <div class="col-md-3 mb-5 mb-md-0">
+        <div class="col-md-3 mb-5 mb-md-0" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="card p-5 border text-center">
                 <div class="card__slide">
                     <div class="card__slide card__slide__front  d-table">

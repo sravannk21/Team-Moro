@@ -1,7 +1,7 @@
 <template>
 <div class="container my-5 py-5">
     <div class="row d-flex">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-in-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="mission-vision bg-light p-4">
                 <h2 class="counter">01</h2>
                 <span>Mission</span>
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 d-flex">
+        <div class="col-md-4 d-flex" data-aos="zoom-in-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="mission-vision bg-light p-4">
                 <h2 class="counter">02</h2>
                 <span>Vision</span>
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 d-flex">
+        <div class="col-md-4 d-flex" data-aos="zoom-in-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="mission-vision bg-light p-4">
                 <h2 class="counter">03</h2>
                 <span>Values</span>

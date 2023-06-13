@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 my-auto">
             <div class="content-right">
                 <h4 class="mt-3">Our Clients</h4>
                 <div class="client-description mt-4">
